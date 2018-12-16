@@ -30,6 +30,9 @@ color brightmagenta "^\[.*\]:( )+.*"
 ## Code spans
 color brightyellow "`[^`]*`"
 
+## Code blocks
+color brightyellow "```\w*"
+
 ## Links and inline images
 color brightmagenta start="!\[" end="\]"
 color brightmagenta start="\[" end="\]"
